@@ -1,6 +1,6 @@
 let pageTemplate = _.template(document.getElementById("page-template").innerHTML)
-let postTemplate = _.template(document.getElementById("post-element").innerHTML)
-let commentsTemplate = _.template(document.getElementById("comments-element").innerHTML)
+let postTemplate = _.template(document.getElementById("post-template").innerHTML)
+let commentsTemplate = _.template(document.getElementById("comments-template").innerHTML)
 
 
 let postTitle = document.getElementById("postTitle").value;
