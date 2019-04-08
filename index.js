@@ -1,4 +1,4 @@
-let pageTemplate = _.template(document.getElementById("page-element").innerHTML)
+let pageTemplate = _.template(document.getElementById("page-template").innerHTML)
 let postTemplate = _.template(document.getElementById("post-element").innerHTML)
 let commentsTemplate = _.template(document.getElementById("comments-element").innerHTML)
 
